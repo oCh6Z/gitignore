@@ -12,5 +12,5 @@ $ git commit -m "modified gitignore file"
 
 ```
 [alias]
-	history = log --pretty=format:\"%n%Cgreen%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci\" --graph
+	history = log --pretty=format:\"%n%Cblue%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci\" --graph
 ```
