@@ -14,3 +14,17 @@ $ git commit -m "modified gitignore file"
 [alias]
 	history = log --pretty=format:\"%n%Cblue%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci\" --graph
 ```
+
+### st
+
+```
+[alias]
+	st = status
+```
+
+### br
+
+```
+[alias]
+	br = branch
+```
