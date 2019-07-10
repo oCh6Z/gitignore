@@ -8,23 +8,75 @@ $ git commit -m "Modified gitignore file"
 
 ## .git/config
 
-### history
-
 ```
-[alias]
-	history = log --pretty=format:\"%n%Cblue%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci\" --graph
+[include]
+        path = alias
 ```
 
-### st
+## .git/alias
+
+### a
 
 ```
-[alias]
-	st = status
+	a = add
 ```
 
 ### br
 
 ```
-[alias]
 	br = branch
+```
+
+### c
+
+```
+	c = commit
+```
+
+### co
+
+```
+	co = checkout
+```
+
+### df
+
+```
+	df = diff
+```
+
+### st
+
+```
+	st = status
+```
+
+### ap
+
+```
+	ap = add --patch
+```
+
+### history
+
+```
+    history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
+```
+
+### hs
+
+```
+    hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
+```
+
+### ls
+
+```
+	ls = ls-files
+```
+
+### new
+
+```
+	new = !sh -c 'git hs $1@{1}..$1@{0} "$@" --patch'
 ```
