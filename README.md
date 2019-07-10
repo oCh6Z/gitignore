@@ -10,7 +10,9 @@ $ git commit -m "Modified gitignore file"
 
 ```
 [include]
-        path = alias
+	path = alias
+[commit]
+	template = commit-message
 ```
 
 ## .git/alias
@@ -60,13 +62,13 @@ $ git commit -m "Modified gitignore file"
 ### history
 
 ```
-    history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
+	history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
 ```
 
 ### hs
 
 ```
-    hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
+	hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
 ```
 
 ### ls
