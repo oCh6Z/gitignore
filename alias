@@ -1,25 +1,25 @@
 [alias]
-        ## short aliases
+    ## short aliases
 
-        a = add
-        br = branch
-        c = commit
-        co = checkout
-        df = diff
-        st = status
+    a = add
+    br = branch
+    c = commit
+    co = checkout
+    df = diff
+    st = status
 
-        ## long aliases
+    ## long aliases
 
-        # add by patch - looks at each change
-        ap = add --patch
+    # add by patch - looks at each change
+    ap = add --patch
 
-        # show log in our preferred format
-        history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
-        hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
+    # show log in our preferred format
+    history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
+    hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
 
-        # show information about files in the index and working tree
-        ls = ls-files
+    # show information about files in the index and working tree
+    ls = ls-files
 
-        # show log of new commits after fetched	with patch
-        new = !sh -c 'git hs $1@{1}..$1@{0} "$@" --patch'
-	#new = !git hs ORIG_HEAD.. --patch
+    # show log of new commits after fetched with patch
+    new = !sh -c 'git hs $1@{1}..$1@{0} "$@" --patch'
+    #new = !git hs ORIG_HEAD.. --patch
