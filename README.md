@@ -10,9 +10,9 @@ $ git commit -m "Modified gitignore file"
 
 ```
 [include]
-	path = alias
+    path = alias
 [commit]
-	template = commit-message
+    template = commit-message
 ```
 
 ## .git/alias
@@ -20,65 +20,65 @@ $ git commit -m "Modified gitignore file"
 ### a
 
 ```
-	a = add
+    a = add
 ```
 
 ### br
 
 ```
-	br = branch
+    br = branch
 ```
 
 ### c
 
 ```
-	c = commit
+    c = commit
 ```
 
 ### co
 
 ```
-	co = checkout
+    co = checkout
 ```
 
 ### df
 
 ```
-	df = diff
+    df = diff
 ```
 
 ### st
 
 ```
-	st = status
+    st = status
 ```
 
 ### ap
 
 ```
-	ap = add --patch
+    ap = add --patch
 ```
 
 ### history
 
 ```
-	history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
+    history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
 ```
 
 ### hs
 
 ```
-	hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
+    hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
 ```
 
 ### ls
 
 ```
-	ls = ls-files
+    ls = ls-files
 ```
 
 ### new
 
 ```
-	new = !sh -c 'git hs $1@{1}..$1@{0} "$@" --patch'
+    new = !sh -c 'git hs $1@{1}..$1@{0} "$@" --patch'
 ```
