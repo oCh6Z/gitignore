@@ -1,4 +1,4 @@
-#	Add = Create a capability.
+#   Add = Create a capability.
 #   Drop = Delete a capability.
 #   Fix = Fix an issue.
 #   Bump = Increase the version of something.
@@ -10,7 +10,7 @@
 #   Refactor = A change that MUST be just refactoring.
 #   Reformat = A change that MUST be just format.
 #   Rephrase = A change that MUST be just textual.
-
+#
 #   If applied, this commit will...
 
 #   Why is this change happening?
