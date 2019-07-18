@@ -3,7 +3,7 @@
 ```sh
 $ git rm -r --cached .
 $ git add .
-$ git commit -m "Modified gitignore file"
+$ git commit -m "Modify gitignore file"
 ```
 
 ## .git/config
