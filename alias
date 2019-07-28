@@ -13,7 +13,7 @@
     # add by patch - looks at each change
     ap = add --patch
 
-    # show log in our preferred format
+    # show log in preferred format
     history = log --graph --pretty=format:'%Cred%h %Creset%s%nAuthor: %cn <%ce>%nDate: %ci%n'
     hs = log --graph --date=short --pretty=format:'%Cred%h %C(yellow)%d %Creset%s %n%Cgreen%ci %Cblue%cn <%ce>%n'
 
